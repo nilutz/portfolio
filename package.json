@@ -5,7 +5,7 @@
   "author": "Nico Lutz <lutznico91@gmail.com>",
   "dependencies": {
     "font-awesome": "^4.7.0",
-    "gatsby": "^1.9.55",
+    "gatsby": "^1.9.54",
     "gatsby-link": "^1.6.20",
     "gatsby-plugin-catch-links": "^1.0.9",
     "gatsby-plugin-manifest": "^1.0.8",
