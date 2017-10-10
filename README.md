@@ -1,6 +1,6 @@
-# Static Portflio
+# Static Portfolio
 
-Private Portfolio, old and current projects on a single static react app. Visit nilutz.github.com/portfolio
+Private Portfolio, old and current projects on a single static react app. Visit [nilutz.github.com/portfolio](https://nilutz.github.io/portfolio/)
 
 ## What's inside?
 
@@ -23,29 +23,34 @@ similiar to [Gatsby material starter](https://github.com/Vagr9K/gatsby-material-
 
 #### First time
 
-  `git checkout -b gh-pages`
+```shell
+git checkout -b gh-pages
+```
 
 This will create a new branch gh-pages and check you out to the new gh-pages branch with a single command.
 
-  `git rm -rf`
+```shell
 
-  `git commit -am “First commit to gh-pages branch”`
+git rm -rf
 
-  `git push origin `git subtree — split — prefix public gh-pages`:gh-pages — force `
+git commit -am “First commit to gh-pages branch”
+
+git push origin 'git subtree — split — prefix public gh-pages':gh-pages — force
+```
 
 
 #### After that 
-copy a npm script:
+copy to package.json as a script:
 
-  `"deploy:subtree": "git push origin `git subtree split --prefix public master`:gh-pages --force",`
-
+  `"deploy:subtree": "git push origin 'git subtree split --prefix public master':gh-pages --force",`
 
 now run 
-  
-  `npm run build:pp`
+ 
+```shell
+npm run build:pp
 
-  `npm run deploy:subtree` 
-
+npm run deploy:subtree
+```
 for each new build and deploying 
 
-or if master has changed commit that and run subtree command for merging
+or if master has changed commit that and run subtree command for both changes to take effect

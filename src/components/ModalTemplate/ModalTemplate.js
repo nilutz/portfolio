@@ -6,6 +6,10 @@ import './ModalTemplate.scss'
 
 export default function ModalTemplate({ data }) {
   const { markdownRemark: item } = data
+
+  const pre = __PATH_PREFIX__.concat('/')
+  const precover = pre.concat(item.frontmatter.cover)
+
   return (
     <div className="item-page md-grid md-grid--no-spacing">
       <div className="md-cell--3 left">
@@ -14,7 +18,7 @@ export default function ModalTemplate({ data }) {
           aspectRatio="1-1"
           className="md-grid md-cell--phone-hidden md-cell--tablet-hidden"
           style={{
-            backgroundImage: `url(${item.frontmatter.cover})`,
+            backgroundImage: `url(${precover})`,
             height: `125px`
           }}
         />
