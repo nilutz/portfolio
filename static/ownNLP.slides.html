@@ -3,25 +3,12 @@
 <head>
 
 
-<!-- If the query includes 'print-pdf', include the PDF print sheet -->
-<script>
-if( window.location.search.match( /print-pdf/gi ) ) {
-        var link = document.createElement( 'link' );
-        link.rel = 'stylesheet';
-        link.type = 'text/css';
-        link.href = 'reveal.js/css/print/pdf.css';
-        document.getElementsByTagName( 'head' )[0].appendChild( link );
-}
-
-</script>
-
 <!--[if lt IE 9]>
 <script src="reveal.js/lib/js/html5shiv.js"></script>
 <![endif]-->
 
 
 <!-- and locally -->
-<script src='./CDNs/MathJax-2.6-latest/MathJax.js?config=TeX-AMS_HTML'></script>
 <!-- Loading the mathjax macro -->
 <!-- Load mathjax -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML"></script>
@@ -13345,7 +13332,7 @@ max _{{\alpha}_l,{\beta}_l} \sum_{x,y} score(y|x) = max _{{\alpha}_l,{\beta}_l} 
 </div>
 </div>
 
-<script>
+<!-- <script>
 
 
 
@@ -13395,7 +13382,7 @@ max _{{\alpha}_l,{\beta}_l} \sum_{x,y} score(y|x) = max _{{\alpha}_l,{\beta}_l} 
         Reveal.addEventListener('slidechanged', setScrollingSlide);
 
     }
-</script>
+</script> -->
 
 </body>
 

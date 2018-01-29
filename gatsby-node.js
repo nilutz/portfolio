@@ -68,7 +68,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
 /*
  * Remove trailing slashes
  * from https://github.com/DSchau/blog/blob/master/gatsby-node.js
- */
+ 
 exports.onCreatePage = ({ page, boundActionCreators }) => {
   const { createPage, deletePage } = boundActionCreators;
 
@@ -83,7 +83,7 @@ exports.onCreatePage = ({ page, boundActionCreators }) => {
     resolve();
   });
 };
-
+*/
 exports.modifyWebpackConfig = ({ config, stage }) => {
   if (stage === "build-javascript") {
     config.plugin("Lodash", webpackLodashPlugin, null);
