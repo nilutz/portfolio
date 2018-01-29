@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const About = () => (
   <div className="about">
@@ -9,8 +9,7 @@ const About = () => (
       Bachelor in Cognitive Science, right know i am studying the Master of
       Computer Science in Bonn. Machine Learning, Deep Learning and current Web
       technolgies gather my curiosity. But I enjoy going to the playground with
-      my daughter, sports and reading. I would like to learn more about Data
-      Analysis on servers.{' '}
+      my daughter, sports and reading. {" "}
     </p>
 
     <h1>About this page</h1>
@@ -19,6 +18,6 @@ const About = () => (
       for more information.
     </p>
   </div>
-)
+);
 
-export default About
+export default About;

@@ -22,8 +22,10 @@
     "gatsby-remark-responsive-iframe": "^1.4.8",
     "gatsby-source-filesystem": "^1.5.3",
     "gatsby-transformer-remark": "^1.7.15",
+    "html-loader": "^0.5.5",
     "lodash": "^4.17.4",
     "lodash-webpack-plugin": "^0.11.4",
+    "react-load-script": "^0.0.6",
     "react-md": "^1.1.9"
   },
   "devDependencies": {
@@ -52,6 +54,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "serve": "gatsby serve",
     "build:pp": "gatsby build --prefix-paths",
     "build:gh": "npm run clean && npm run build:pp && gh-pages -d public",
     "deploy:subtree": "git push origin `git subtree split --prefix public master`:gh-pages --force",

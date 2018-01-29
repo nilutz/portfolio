@@ -13,8 +13,8 @@
       "path---tags-back-end-2cac2c011199b16ddc76.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-2deebba060ffab8dc7bf.js",
-      "component---src-pages-index-js-2deebba060ffab8dc7bf.js.map"
+      "component---src-pages-index-js-6797cc1a1ebb4f1b48b2.js",
+      "component---src-pages-index-js-6797cc1a1ebb4f1b48b2.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -25,24 +25,24 @@
       "path---pommesindex-1dd0e66bc24f92ccca10.js.map"
     ],
     "path---iotelevator": [
-      "path---iotelevator-30529343e048319c8ce9.js",
-      "path---iotelevator-30529343e048319c8ce9.js.map"
+      "path---iotelevator-56b3ed78310fb15ae506.js",
+      "path---iotelevator-56b3ed78310fb15ae506.js.map"
     ],
     "path---tags-embedded": [
       "path---tags-embedded-8586c1021f6b7dc2a5c6.js",
       "path---tags-embedded-8586c1021f6b7dc2a5c6.js.map"
     ],
     "path---cellcounter": [
-      "path---cellcounter-ec3afe1de8909ec9497d.js",
-      "path---cellcounter-ec3afe1de8909ec9497d.js.map"
+      "path---cellcounter-bc947b79d97e963db2f9.js",
+      "path---cellcounter-bc947b79d97e963db2f9.js.map"
     ],
     "path---sealioncounter": [
-      "path---sealioncounter-cd1663e5dfb20fababf8.js",
-      "path---sealioncounter-cd1663e5dfb20fababf8.js.map"
+      "path---sealioncounter-4ccd698a803a5c5ae4c3.js",
+      "path---sealioncounter-4ccd698a803a5c5ae4c3.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-b17c02edfc48faf04d91.js",
-      "component---src-layouts-index-js-b17c02edfc48faf04d91.js.map"
+      "component---src-layouts-index-js-526745398427bffc4210.js",
+      "component---src-layouts-index-js-526745398427bffc4210.js.map"
     ],
     "path---tags-iot": [
       "path---tags-iot-e59bc0056d8d817cb383.js",
@@ -53,40 +53,48 @@
       "path---tags-virtual-reality-3b9610da50c6e6797ba7.js.map"
     ],
     "path---index": [
-      "path---index-ff5dda630a14b31d2e29.js",
-      "path---index-ff5dda630a14b31d2e29.js.map"
+      "path---index-46cf39962975107ee25d.js",
+      "path---index-46cf39962975107ee25d.js.map"
     ],
     "path---motorlearning": [
-      "path---motorlearning-6e8936618b4f768c7560.js",
-      "path---motorlearning-6e8936618b4f768c7560.js.map"
+      "path---motorlearning-ad127b2b104c4820b161.js",
+      "path---motorlearning-ad127b2b104c4820b161.js.map"
+    ],
+    "component---src-pages-presentation-js": [
+      "component---src-pages-presentation-js-3be4a6cf34483b818620.js",
+      "component---src-pages-presentation-js-3be4a6cf34483b818620.js.map"
     ],
     "component---src-pages-404-js": [
-      "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
-      "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
+      "component---src-pages-404-js-cf325d2e9bf981eec2f6.js",
+      "component---src-pages-404-js-cf325d2e9bf981eec2f6.js.map"
     ],
     "commons": [
-      "commons-b5f4f12336c76a4b77ac.js",
-      "commons-b5f4f12336c76a4b77ac.js.map"
+      "commons-4a304d95d6369ed65d41.js",
+      "commons-4a304d95d6369ed65d41.js.map"
     ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---iotproto": [
-      "path---iotproto-83e665c481dbe778fc9b.js",
-      "path---iotproto-83e665c481dbe778fc9b.js.map"
+      "path---iotproto-b894af79ad16abf42581.js",
+      "path---iotproto-b894af79ad16abf42581.js.map"
+    ],
+    "path---presentation": [
+      "path---presentation-a0e39f21c11f6a62c5ab.js",
+      "path---presentation-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-components-tag-template-tag-template-jsx": [
-      "component---src-components-tag-template-tag-template-jsx-0315169ac5c4ed6e9b61.js",
-      "component---src-components-tag-template-tag-template-jsx-0315169ac5c4ed6e9b61.js.map"
+      "component---src-components-tag-template-tag-template-jsx-2e1ac2c53fa8b5076c87.js",
+      "component---src-components-tag-template-tag-template-jsx-2e1ac2c53fa8b5076c87.js.map"
     ],
     "component---src-components-modal-template-modal-template-js": [
-      "component---src-components-modal-template-modal-template-js-1ea098d3c2cafd194d70.js",
-      "component---src-components-modal-template-modal-template-js-1ea098d3c2cafd194d70.js.map"
+      "component---src-components-modal-template-modal-template-js-3f2a880f478fc9474f66.js",
+      "component---src-components-modal-template-modal-template-js-3f2a880f478fc9474f66.js.map"
     ],
     "app": [
-      "app-1633139f4f2df07df2d4.js",
-      "app-1633139f4f2df07df2d4.js.map"
+      "app-8385680009137ecae35b.js",
+      "app-8385680009137ecae35b.js.map"
     ],
     "path---tags-scientific-programming": [
       "path---tags-scientific-programming-4b512e0085f6e07423f6.js",
@@ -109,8 +117,8 @@
       "path---tags-front-end-7807221311501b2d8961.js.map"
     ],
     "component---src-pages-about-js": [
-      "component---src-pages-about-js-873ba57545b00ea1e8bf.js",
-      "component---src-pages-about-js-873ba57545b00ea1e8bf.js.map"
+      "component---src-pages-about-js-984ed347c50e00f7b88b.js",
+      "component---src-pages-about-js-984ed347c50e00f7b88b.js.map"
     ],
     "path---about": [
       "path---about-a0e39f21c11f6a62c5ab.js",

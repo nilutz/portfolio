@@ -1,15 +1,15 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
-import UserLinks from '../UserLinks/UserLinks'
+import UserLinks from "../UserLinks/UserLinks";
 
-import config from '../../../data/SiteConfig'
-import './Footer.scss'
+import config from "../../../data/SiteConfig";
+import "./Footer.scss";
 
 class Footer extends Component {
   render() {
-    const copyright = config.copyright
+    const copyright = config.copyright;
     if (!copyright) {
-      return null
+      return null;
     }
     return (
       <footer className="footer">
@@ -20,8 +20,8 @@ class Footer extends Component {
           </div>
         </div>
       </footer>
-    )
+    );
   }
 }
 
-export default Footer
+export default Footer;
