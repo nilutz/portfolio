@@ -12,11 +12,10 @@ export default function ModalTemplate({ data }) {
 
   return (
     <div className="item-page md-grid md-grid--no-spacing">
-      <div className="md-cell md-cell--3 left">
+      <div className="md-cell md-cell--3 left md-cell--phone-hidden md-cell--tablet-hidden">
         <h1 className="item-header">{item.frontmatter.title}</h1>
         <Media
           aspectRatio="1-1"
-          className="md-grid md-cell--phone-hidden md-cell--tablet-hidden"
           style={{
             backgroundImage: `url(${precover})`,
             height: `125px`
