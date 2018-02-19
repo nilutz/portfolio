@@ -1,17 +1,17 @@
-import React, { Component } from "react";
-import Media, { MediaOverlay } from "react-md/lib/Media";
-import CardTitle from "react-md/lib/Cards/CardTitle";
-import Button from "react-md/lib/Buttons";
+import React, { Component } from 'react'
+import Media, { MediaOverlay } from 'react-md/lib/Media'
+import CardTitle from 'react-md/lib/Cards/CardTitle'
+import Button from 'react-md/lib/Buttons'
 
-import styled from "styled-components";
+import styled from 'styled-components'
 
 // import images
-import img1 from "../../../content/img/cellcircle_100.png";
-import img2 from "../../../content/img/example_input.png";
-import img3 from "../../../content/img/Elevator1.jpg";
-import img4 from "../../../content/img/OfficeDashboard1.jpg";
-import img5 from "../../../content/img/trafficlight.jpg";
-import img6 from "../../../content/img/expscreenshot.jpg";
+import img1 from '../../../content/img/cellcircle_100.png'
+import img2 from '../../../content/img/example_input.png'
+import img3 from '../../../content/img/Elevator1.jpg'
+import img4 from '../../../content/img/OfficeDashboard1.jpg'
+import img5 from '../../../content/img/trafficlight.jpg'
+import img6 from '../../../content/img/expscreenshot.jpg'
 
 // make with map and load these with a file or with markdown
 // also all the text like title, explain, etc should be in a markdown
@@ -19,13 +19,13 @@ import img6 from "../../../content/img/expscreenshot.jpg";
 
 const HoverableMediaOverlay = styled(MediaOverlay)`
   display: None;
-`;
+`
 
 const HoverableMedia = styled(Media)`
   &:hover ${HoverableMediaOverlay} {
     display: block;
   }
-`;
+`
 
 class GridList extends Component {
   render() {
@@ -109,8 +109,8 @@ class GridList extends Component {
           </HoverableMedia>
         </div>
       </div>
-    );
+    )
   }
 }
 
-export default GridList;
+export default GridList

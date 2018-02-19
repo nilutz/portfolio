@@ -1,6 +1,6 @@
-const config = require("./data/SiteConfig");
+const config = require('./data/SiteConfig')
 
-const pathPrefix = config.pathPrefix === "/" ? "" : config.pathPrefix;
+const pathPrefix = config.pathPrefix === '/' ? '' : config.pathPrefix
 
 module.exports = {
   pathPrefix: config.pathPrefix,
@@ -17,7 +17,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-nprogress`,
       options: {
-        color: "#00695C"
+        color: '#00695C'
       }
     },
     {
@@ -55,23 +55,23 @@ module.exports = {
         short_name: config.siteTitle,
         description: config.siteDescription,
         start_url: config.pathPrefix,
-        background_color: "#e0e0e0",
-        theme_color: "#00695C",
-        display: "minimal-ui",
+        background_color: '#e0e0e0',
+        theme_color: '#00695C',
+        display: 'minimal-ui',
         icons: [
           {
-            src: "/img/pommes.png",
-            sizes: "192x192",
-            type: "image/png"
+            src: '/img/pommes.png',
+            sizes: '192x192',
+            type: 'image/png'
           },
           {
-            src: "/img/pommes.png",
-            sizes: "512x512",
-            type: "image/png"
+            src: '/img/pommes.png',
+            sizes: '512x512',
+            type: 'image/png'
           },
           `gatsby-plugin-offline`
         ]
       }
     }
   ]
-};
+}

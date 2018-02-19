@@ -54,8 +54,3 @@ npm run deploy:subtree
 for each new build and deploying 
 
 or if master has changed commit that and run subtree command for both changes to take effect
-
-#### todo
-
-* add webprojects
-* add gameai

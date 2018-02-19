@@ -24,7 +24,10 @@ export default function Index({ data }) {
         .filter(item => item.node.frontmatter.title.length > 0)
         .map(({ node: item }) => {
           return (
-            <div className="md-cell md-cell--4 front-item" key={item.id}>
+            <div
+              className="md-cell md-cell--3-desktop md-cell--2--tablet md-cell--4-phone front-item"
+              key={item.id}
+            >
               <Link to={item.frontmatter.path}>
                 <HoverableMedia
                   aspectRatio="1-1"

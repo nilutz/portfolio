@@ -6,10 +6,10 @@ const About = () => (
     <h2> Hi, </h2>
     <p>
       this portfolio presents current and past projects. In 2015 I did my
-      Bachelor in Cognitive Science, right know i am studying the Master of
-      Computer Science in Bonn. Machine Learning, Deep Learning and current Web
-      technolgies gather my curiosity. But I enjoy going to the playground with
-      my daughter, sports and reading. {" "}
+      Bachelor in Cognitive Science, after that I worked a little bit a company.
+      Right know i am studying the Master of Computer Science in Bonn. Machine
+      Learning, Deep Learning and current Web technolgies gather my curiosity.
+      But I enjoy going to the playground with my daughter, sports and reading.
     </p>
 
     <h1>About this page</h1>

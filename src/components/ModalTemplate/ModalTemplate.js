@@ -1,14 +1,14 @@
-import React from "react";
-import Media from "react-md/lib/Media";
-import ItemTag from "../ItemTag/ItemTag";
+import React from 'react'
+import Media from 'react-md/lib/Media'
+import ItemTag from '../ItemTag/ItemTag'
 
-import "./ModalTemplate.scss";
+import './ModalTemplate.scss'
 
 export default function ModalTemplate({ data }) {
-  const { markdownRemark: item } = data;
+  const { markdownRemark: item } = data
 
-  const pre = __PATH_PREFIX__.concat("/");
-  const precover = pre.concat(item.frontmatter.cover);
+  const pre = __PATH_PREFIX__.concat('/')
+  const precover = pre.concat(item.frontmatter.cover)
 
   return (
     <div className="item-page md-grid md-grid--no-spacing">
@@ -35,7 +35,7 @@ export default function ModalTemplate({ data }) {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
 export const itemQuery = graphql`
@@ -51,4 +51,4 @@ export const itemQuery = graphql`
       }
     }
   }
-`;
+`
