@@ -55,7 +55,7 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "serve": "gatsby serve",
-    "build:pp": "gatsby build --prefix-paths",
+    "build:pp": "rm -rf .cache/* && gatsby build --prefix-paths",
     "build:gh": "npm run clean && npm run build:pp && gh-pages -d public",
     "deploy:subtree": "git push origin `git subtree split --prefix public master`:gh-pages --force",
     "format:js": "prettier '**/*.{js,jsx}' --write",
